@@ -10,7 +10,7 @@ body {
     margin-right: auto;
 }
 
-#img {
+#header-picture {
     padding: 40px 0;
     height: 500px;
     width: 1000px;
@@ -19,8 +19,7 @@ body {
     margin-right: auto;
 }
 
-#img1 {
-
+#personal-picture {
     height: 120px;
     width: 100px;
     float: left;
@@ -28,9 +27,16 @@ body {
     filter: sepia(50%);
 }
 
-#info1 {
+.info1 {
     width: 600px;
     margin-left: 30%;
+}
+
+.info2 {
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 10%;
 }
 
 img {
@@ -38,7 +44,7 @@ img {
     border-radius: 10px;
 }
 
-#title {
+.title {
     position: absolute;
     bottom: 70px;
     right: 15px;
@@ -101,24 +107,11 @@ ol > li:hover > a {
     text-align: center;
 }
 
-.about1 {
-    padding: 60px 15% 30px 15%;
-    color: chartreuse;
-    text-align: center;
-}
-
-#line1 {
+hr {
     margin-left: 100px;
     margin-right: 100px;
-    border-width: 2px;
-    border-color: chartreuse;
-}
-
-#line2 {
-    margin-left: 100px;
-    margin-right: 100px;
-    border-width: 2px;
-    border-color: dimgray;
+    height: 2px;
+    background-color: chartreuse;
 }
 
 .git {
@@ -128,13 +121,6 @@ ol > li:hover > a {
     background-color: dimgray;
     float: left;
     border: 1px solid chartreuse;
-}
-
-#info2 {
-    width: 600px;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    margin-left: 10%;
 }
 
 .ability {
