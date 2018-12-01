@@ -1,19 +1,16 @@
-body
-{
-background-color: dimgray;
-font-size: 18px;
-font-family: 'Quicksand', sans-serif;
+body {
+    background-color: dimgray;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-#main
-{
+#main {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#img
-{
+#img {
     padding: 40px 0;
     height: 500px;
     width: 1000px;
@@ -22,31 +19,26 @@ font-family: 'Quicksand', sans-serif;
     margin-right: auto;
 }
 
-#img1
-{
-    
+#img1 {
+
     height: 120px;
     width: 100px;
-	float: left;
-	padding: 40px 0;
+    float: left;
+    padding: 40px 0;
     filter: sepia(50%);
 }
 
-#info1
-{
-	width: 600px;
-	margin-left: 30%;
+#info1 {
+    width: 600px;
+    margin-left: 30%;
 }
 
-
-img
-{
+img {
     border: 5px solid chartreuse;
     border-radius: 10px;
 }
 
-#title
-{
+#title {
     position: absolute;
     bottom: 70px;
     right: 15px;
@@ -55,26 +47,22 @@ img
     text-shadow: 5px 5px chartreuse;
 }
 
-h1
-{
+h1 {
     font-size: 70px;
 }
 
-h2
-{
+h2 {
     font-size: 50px;
     text-align: center;
 }
 
-.menu
-{
+.menu {
     background-color: chartreuse;
     height: 70px;
     text-align: center;
 }
 
-ol
-{
+ol {
     list-style-type: none;
     font-size: 18px;
     height: 40px;
@@ -82,164 +70,110 @@ ol
     line-height: 200%;
 }
 
-ol a
-{
+ol a {
     text-decoration: none;
     display: block;
-    color:dimgray;
+    color: dimgray;
 }
 
-ol > li 
-{
+ol > li {
     float: left;
     width: 250px;
     height: 40px;
     border-right: 2px solid dimgray;
 }
 
-ol > li:first-child
-{
+ol > li:first-child {
     border-left: 2px solid dimgray;
 }
 
-ol > li:hover
-{
-    background-color:dimgray;
+ol > li:hover {
+    background-color: dimgray;
 }
 
-ol > li:hover > a
-{
+ol > li:hover > a {
     color: chartreuse;
 }
 
-.about
-{
+.about {
     padding: 60px 20% 30px 20%;
     color: chartreuse;
     text-align: center;
 }
 
-.about1
-{
+.about1 {
     padding: 60px 15% 30px 15%;
     color: chartreuse;
     text-align: center;
 }
 
-
-#line1
-{
+#line1 {
     margin-left: 100px;
     margin-right: 100px;
     border-width: 2px;
     border-color: chartreuse;
 }
 
-#line2
-{
+#line2 {
     margin-left: 100px;
     margin-right: 100px;
     border-width: 2px;
     border-color: dimgray;
 }
 
-.git
-{
-	margin-left: 15%;
-	width: 200px;
-	height: 142px;
-    background-color:dimgray; 	
-	float: left;
-	border: 1px solid chartreuse;
+.git {
+    margin-left: 15%;
+    width: 200px;
+    height: 142px;
+    background-color: dimgray;
+    float: left;
+    border: 1px solid chartreuse;
 }
 
-
-
-
-#info2
-{
-	width: 600px;
-	margin-top: 70px;
-	margin-bottom: 30px;
-	margin-left: 10%;
+#info2 {
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 10%;
 }
 
-.ability
-{
+.ability {
     background-color: chartreuse;
     color: dimgray;
     padding: 60px 10% 30px 10%;
 }
-ul
-{
+
+ul {
     margin-left: 35%;
 }
-.social
-{
+
+.social {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-.link
-{
+
+.link {
     text-decoration: none;
     display: inline-block;
     text-align: center;
     list-style-type: none;
     color: dimgray;
 }
-.fb
-{
-	margin: 25px;
-	width: 200px;
-	height: 142px;
-    background-color:chartreuse;    
-	float: left;
-}
-.tw
-{
-	margin: 25px;
-	width: 200px;
-	height: 142px;
-    background-color:chartreuse;    
-	float: left;
-}
-.mail
-{
-	margin: 25px;
-	width: 200px;
-	height: 142px;
-    background-color:chartreuse;   
-	float: left;
-}
-.wp
-{
-	margin: 25px;
-	width: 200px;
-	height: 142px;
-    background-color:chartreuse;   
-	float: left;
+
+.icon {
+    margin: 25px;
+    width: 200px;
+    height: 142px;
+    background-color: chartreuse;
+    float: left;
 }
 
-.fb:hover
-{
-    background-color: dimgray;
-    opacity: 0.5;
-}
-.tw:hover
-{
+.icon:hover {
     background-color: dimgray;
 }
-.mail:hover
-{
-    background-color: dimgray;
-}
-.wp:hover
-{
-    background-color: dimgray;
-}
-i:hover
-{
+
+i:hover {
     color: chartreuse;
 }
 
